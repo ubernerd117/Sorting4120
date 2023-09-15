@@ -1,0 +1,83 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230912212333
+Username: PANDA1\soura
+RunAs User: PANDA1\soura
+Configuration Name: 
+Machine: PANDA1 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\soura\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 21864
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\soura\OneDrive\Desktop\Project1\script.log
+PS C:\Users\soura\OneDrive\Desktop\Project1> pwd
+
+Path
+----
+C:\Users\soura\OneDrive\Desktop\Project1
+
+
+PS C:\Users\soura\OneDrive\Desktop\Project1> ls
+
+
+    Directory: C:\Users\soura\OneDrive\Desktop\Project1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---l         9/12/2023   9:02 PM            984 fileGenProc.py
+-a---l         9/12/2023   9:02 PM           2040 genDataset.py
+-a---l         9/12/2023   9:02 PM            969 insertionSort.py
+-a---l         9/12/2023   9:18 PM            356 README.md
+-a----         9/12/2023   9:23 PM            859 script.log
+
+
+PS C:\Users\soura\OneDrive\Desktop\Project1> python3 fileGenProc.py
+
+PS C:\Users\soura\OneDrive\Desktop\Project1> ls
+
+
+    Directory: C:\Users\soura\OneDrive\Desktop\Project1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---l         9/12/2023   9:02 PM            984 fileGenProc.py
+-a---l         9/12/2023   9:02 PM           2040 genDataset.py
+-a---l         9/12/2023   9:02 PM            969 insertionSort.py
+-a---l         9/12/2023   9:24 PM        2505432 random_numbers_120000.txt
+-a---l         9/12/2023   9:24 PM         840000 random_numbers_120000_21345.txt
+-a---l         9/12/2023   9:24 PM        2505283 random_numbers_120000_rsorted.txt
+-a---l         9/12/2023   9:24 PM        2505310 random_numbers_120000_sorted.txt
+-a---l         9/12/2023   9:24 PM         313189 random_numbers_15000.txt
+-a---l         9/12/2023   9:24 PM         105000 random_numbers_15000_21345.txt
+-a---l         9/12/2023   9:24 PM         313198 random_numbers_15000_rsorted.txt
+-a---l         9/12/2023   9:24 PM         313252 random_numbers_15000_sorted.txt
+-a---l         9/12/2023   9:24 PM        5011291 random_numbers_240000.txt
+-a---l         9/12/2023   9:24 PM        1680000 random_numbers_240000_21345.txt
+-a---l         9/12/2023   9:24 PM        5011207 random_numbers_240000_rsorted.txt
+-a---l         9/12/2023   9:24 PM        5011199 random_numbers_240000_sorted.txt
+-a---l         9/12/2023   9:24 PM         626520 random_numbers_30000.txt
+-a---l         9/12/2023   9:24 PM         210000 random_numbers_30000_21345.txt
+-a---l         9/12/2023   9:24 PM         626404 random_numbers_30000_rsorted.txt
+-a---l         9/12/2023   9:24 PM         626427 random_numbers_30000_sorted.txt
+-a---l         9/12/2023   9:24 PM        1252609 random_numbers_60000.txt
+-a---l         9/12/2023   9:24 PM         420000 random_numbers_60000_21345.txt
+-a---l         9/12/2023   9:24 PM        1252891 random_numbers_60000_rsorted.txt
+-a---l         9/12/2023   9:24 PM        1252788 random_numbers_60000_sorted.txt
+-a---l         9/12/2023   9:18 PM            356 README.md
+-a----         9/12/2023   9:23 PM           1521 script.log
+
+
+PS C:\Users\soura\OneDrive\Desktop\Project1> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20230912222814
+**********************
