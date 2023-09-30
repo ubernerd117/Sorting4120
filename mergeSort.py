@@ -1,5 +1,6 @@
 import time
 import sys
+import csv
 
 #METHOD TO GET TIME IN MS
 def timeMS():
@@ -77,4 +78,9 @@ timeElapsed = endTime - startTime
 
 print(filename, len(unsortedList), " values\t",  numComparisons, " comparisons made\t", timeElapsed, "ms taken\n")
 
-numComps = 0
+
+
+filenameCSV = "mergeSortResults.csv"
+with open(filenameCSV, 'a', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow([len(unsortedList), numComparisons, timeElapsed])
